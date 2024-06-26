@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="alumno" content="Romero Flores Dylan">
+    <meta name="alumno" content="Julieta Bracamonte">
+    <link rel="shortcut icon" type="iamge/x-con" href="img/icono.ico">
+    <!-- Plantilla CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>CINESTELLAR - Register</title>
+</head>
+<body>
+    <header>
+        <div class="centrado">
+            <div class="logo">
+                <a href="index.html">CineStellar</a>
+            </div>
+            <nav>
+                <ul class="menu-horizontal">
+                    <div class="menu">
+                        <li><a href="#">Menú</a></li>
+                    </div>
+                    <li>
+                        <a href="index.html">Películas</a>
+                        <ul class="menu-vertical">
+                            <div class="radio-acc">
+                                <li><a href="#accion">Acción</a></li>
+                            </div>
+                            <li><a href="#animado">Animado</a></li>
+                            <div class="radio-comedy">
+                                <li><a href="#comedia">Comedia</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li><a href="#">Formularios</a>
+                        <ul class="menu-vertical">
+                            <div class="radio-form-reg">
+                                <li><a href="datos.html">Datos</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="bi bi-person-circle"></i></a>
+                        <ul class="menu-vertical">
+                            <div class="radio-form-reg">
+                                <li><a href="login.html">Iniciar Sesión</a></li>
+                            </div>
+                            <div class="radio-form-reg">
+                                <li><a href="register.html">Registrarse</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="registro">
+            <div class="cuadro">
+                <form action="#" method="get">
+                    <h1>Register</h1>
+                    <div class="input-box">
+                        <input type="text" placeholder="First Name..." required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Last Name..." required>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" placeholder="Gmail..." required>
+                    </div>
+                    <div class="input-box">
+                        <input type="tel" placeholder="Phone number..." required>
+                    </div>
+                    <div class="nacionalidad">
+                        <label for="Nacionalidad">Nacionalidad</label>
+                        <select name="Nacionalidad" id="Nacionalidad">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Brasil">Brasil</option>
+                            <option value="Chile">Chile</option>
+                        </select>
+                    </div>
+                    <div id="boton">
+                        <div class="wrap2">
+                            <div class="carta-reg">
+                                <div class="radio">
+                                    <input type="radio" name="sexo" id="hombre">
+                                    <label for="hombre">Hombre</label>
+                                    
+                                    <input type="radio" name="sexo" id="mujer">
+                                    <label for="mujer">Mujer</label>
+                                    
+                                    <input type="radio" name="sexo" id="alien">
+                                    <label for="alien">Alien</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password..." required>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Repeat password..." required>
+                    </div>
+                    <div class="terminos">
+                        <label><input type="checkbox">Aceptar terminos y condiciones</label>
+                    </div>
+                    <button type="submit" class="boton">Registrar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="two">
+        <div class="container1">
+            <div class="row">
+                <div class="links">
+                    <h4>Compañía</h4>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Nuestros servicios</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Afiliate</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="#">Compras</a></li>
+                        <li><a href="#">Envíos</a></li>
+                        <li><a href="#">Estatus de orden</a></li>
+                        <li><a href="#">Pago</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h4>Tienda</h4>
+                    <ul>
+                        <li><a href="#">Películas</a></li>
+                        <li><a href="#">Alquiler</a></li>
+                        <li><a href="#">Envíos</a></li>
+                        <li><a href="#">Pago</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h4>Redes sociales</h4>
+                    <div class="social">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <h4><i class="bi bi-telephone-fill"></i> Contacto: cinestellar@gmail.com</h4>
+            <h4><i class="bi bi-geo-alt-fill"></i> Dirección:<a href="https://www.google.com.ar/maps/place/Rivadavia+536,+F5300ACS+La+Rioja/@-29.4148882,-66.8580523,17z/data=!3m1!4b1!4m6!3m5!1s0x9427da354ea7e193:0xce4e5edbd33163b2!8m2!3d-29.4148929!4d-66.8554774!16s%2Fg%2F11h79kmb5h?entry=ttu"> Rivadavia 536, F5300ACS La Rioja</a></h4>
+            <h5>&copy; 2024 CINESTELLAR, All Rights Reserved. Proudly created by Romero Dylan & Bracamonte Julieta<a href="#"></a></h5>
+        </div>
+    </footer>
+</body>
+</html>
